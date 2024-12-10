@@ -39,6 +39,8 @@ const About = () => {
         <div>
           <a
             href="#"
+            target="_blank"
+            rel="noreferrer"
             className="link flex items-center gap-x-2 hover:gap-x-4 transition-all"
             data-aos="fade-down"
             data-aos-dely="500"
