@@ -2,7 +2,7 @@ import React from "react";
 import { banner } from "../data";
 
 const Banner = () => {
-  const { img, subtitle, textBtn, titlePart1, titlePart2 } = banner;
+  const { subtitle, textBtn, titlePart1, titlePart2 } = banner;
   return (
     <section className="bg-neutral-500 h-[790px]">
       <div className="container mx-auto h-full">

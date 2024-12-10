@@ -38,7 +38,7 @@ const About = () => {
         </p>
         <div>
           <a
-            href=""
+            href="#"
             className="link flex items-center gap-x-2 hover:gap-x-4 transition-all"
             data-aos="fade-down"
             data-aos-dely="500"

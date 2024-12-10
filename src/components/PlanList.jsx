@@ -13,7 +13,7 @@ const PlanList = ({ plans }) => {
       data-aos-delay="600"
     >
       {plans.map((plan, ind) => {
-        const { name, price, list, dely } = plan;
+        const { name, price, list } = plan;
         return (
           <div
             key={ind}

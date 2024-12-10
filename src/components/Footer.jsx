@@ -1,9 +1,7 @@
 import React from "react";
-import { footer } from "../data";
 import { motion } from "framer-motion";
 
 const Footer = () => {
-  const { copyrightText, logo } = footer;
   return (
     <footer className="bg-neutral-500 h-[125px] md:h-[175px] px-[20px]">
       <div

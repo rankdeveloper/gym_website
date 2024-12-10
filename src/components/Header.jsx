@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { header } from "../data";
 import { Nav, NavMobile } from "./index";
 import { RiMenu4Fill, RiCloseFill } from "react-icons/ri";
 import { motion } from "framer-motion";
@@ -7,8 +6,6 @@ import { motion } from "framer-motion";
 const Header = () => {
   const [isActive, setIsAvtive] = useState(false);
   const [navMobile, setNavmobile] = useState(false);
-  const { logo } = header;
-
   useEffect(() => {
     window.addEventListener("scroll", () => {
       window.scrollY > 80 ? setIsAvtive(true) : setIsAvtive(false);
@@ -28,7 +25,6 @@ const Header = () => {
           duration: 1,
           repeat: Infinity,
           repeatType: "reverse",
-          // repeatType: "loop",
           repeatDelay: 0.5,
           stiffness: 40,
           type: "spring",

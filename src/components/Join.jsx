@@ -4,7 +4,7 @@ import React from "react";
 import { join } from "../data";
 
 const Join = () => {
-  const { btnText, image, subtitle, title } = join;
+  const { btnText, image, subtitle } = join;
   return (
     <section className="min-h-[537px] bg-neutral-500 mb-[80px] lg:mb-0">
       <div className="container mx-auto">
@@ -18,7 +18,7 @@ const Join = () => {
           >
             <img src={image} alt="" />
           </div>
-          {/* title and btn */}
+
           <div
             className="max-w-[350px] lg:max-w-[492px] ml-[30px]"
             data-aos="fade-left"
