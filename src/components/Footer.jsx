@@ -26,6 +26,17 @@ const Footer = () => {
           Infinity <b className="!text-white">Fitness</b>
         </motion.span>
 
+        <form className="hidden sm:flex gap-x-4 ">
+          <input
+            type="email"
+            placeholder="Enter your email"
+            className="px-6 py-3 !text-sm outline-none"
+          />
+          <button className="!text-sm bg-primary-200 text-black hover:bg-primary-300 transition-all font-[700] px-3">
+            Subscribe
+          </button>
+        </form>
+
         <p className="text-neutral-300 text-sm">
           Designed and Developed by{" "}
           <a href="https://github.com/rankdeveloper" target="_blank">

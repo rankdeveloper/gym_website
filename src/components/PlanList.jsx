@@ -51,7 +51,10 @@ const PlanList = ({ plans }) => {
                     {list.map((item, ind) => {
                       const { name } = item;
                       return (
-                        <li className="flex items-center gap-x-[10px]">
+                        <li
+                          key={ind}
+                          className="flex items-center gap-x-[10px]"
+                        >
                           <BsCheckCircleFill />
                           <div>{name}</div>
                         </li>

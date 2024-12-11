@@ -1,5 +1,5 @@
 // images
-import Logo from "../src/assets/img/header/logo.svg";
+import Logo from "../src/assets/img/header/logo.png";
 import ResistanceImg from "../src/assets/img/workouts/resistance.png";
 import BoxingImg from "../src/assets/img/workouts/boxing.png";
 import BodyPumpImg from "../src/assets/img/workouts/body-pump.png";
